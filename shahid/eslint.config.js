@@ -1,33 +1,41 @@
+// eslint.config.js
 import js from '@eslint/js'
+import react from 'eslint-plugin-react'
 import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
+import babelParser from '@babel/eslint-parser'
 
 export default [
-  { ignores: ['dist'] },
+  js.configs.recommended,
   {
-    files: ['**/*.{js,jsx}'],
+    files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
     languageOptions: {
-      ecmaVersion: 2020,
-      globals: globals.browser,
+      parser: babelParser,
       parserOptions: {
-        ecmaVersion: 'latest',
-        ecmaFeatures: { jsx: true },
-        sourceType: 'module',
+        requireConfigFile: false,
+        babelOptions: {
+          presets: ['@babel/preset-react'],
+        },
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+      globals: {
+        ...globals.browser,
+        ...globals.node,
       },
     },
     plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
+      react,
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
     },
     rules: {
-      ...js.configs.recommended.rules,
-      ...reactHooks.configs.recommended.rules,
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true },
-      ],
+      'react/react-in-jsx-scope': 'off',
+        'no-unused-vars': 'warn', // or 'off'
+      'react/jsx-no-target-blank': ['warn', { enforceDynamicLinks: 'always' }],
     },
   },
 ]
