@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Heading from "./Heading";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  return <div className="parent">
+    <div className="mainContainer">
+        <div className="header"></div>
+        <div className="content">
+          <div className="box about">
+            <Heading >About</Heading>
+            <p className="description">Shahid is a passionate developer focused on building meaningful digital products.
+              <br/>
+              <br/>
+His work blends thoughtful design and a deep love for solving real-world problems.</p>
+          </div>
+          <div className="subbox">
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+          <div className="box location"></div>
+          <div className="box link"></div>
+          </div>
+          <div className="box work"></div>
+          <div className="box skills"></div>
+        </div>
+        <div className="footer"></div>
+    </div>
+  </div>;
 }
-
-export default App
