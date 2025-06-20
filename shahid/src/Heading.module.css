@@ -1,8 +1,8 @@
 .parent{
     border-bottom: 1px solid rgba(255, 255, 255, 0.34);
     color: #FFF;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: 172%; /* 17.2px */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 172%; /* 17.2px */
 }
