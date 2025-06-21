@@ -9,7 +9,7 @@
 .bordernone{
     border: none;
 }
-
+    
 
 .date{
     color: #838383;
@@ -20,7 +20,8 @@
 }
 
 .title{
-    color: #FFF;
+    color: #efdcc3;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
