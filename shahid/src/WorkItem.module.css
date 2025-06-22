@@ -1,45 +1,62 @@
-.parent{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    border-bottom: 0.3px solid rgba(255, 255, 255, 0.18);
-    padding-bottom: 1.5rem;
+.parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.18);
+  padding-bottom: 1.5rem;
+  cursor: pointer;
 }
 
-.bordernone{
-    border: none;
-}
-    
-
-.date{
-    color: #838383;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    /* line-height: 172%; */
+.bordernone {
+  border: none;
 }
 
-.title{
-    color: #efdcc3;
-
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.date {
+  color: #9faaa5;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 172%; */
 }
 
-.container{
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
+.title {
+  color: #efdcc3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
 }
 
-.desc{
-    color: #838383;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 172%; 
+.linksvg {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -17px;
+  transform: scale(0) rotate(180deg);
+  transition: all 0.2s;
+
 }
 
+.parent:hover .container .title .linksvg{
+    transform: scale(1) rotate(0deg) translateX(5px);
+}
+
+
+.container {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: all 0.2s;
+}
+
+.desc {
+  color: #9faaa5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 172%;
+  padding-right: 12px;
+}
