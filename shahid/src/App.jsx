@@ -8,7 +8,7 @@ export default function App() {
       <div className="mainContainer">
         <div className="header">
           <div className="infoDiv">
-            <img src="../public/profile.png" className="profileimg" />
+            <img src="/profile.png" className="profileimg" />
             <div className="subInfoDiv">
               <h1 className="name">Shahid Siddiqui</h1>
               <p className="job">Web Designer and Developer</p>
@@ -66,28 +66,28 @@ export default function App() {
                 <div className="socialdiv">
                   <img
                     className="socialpng"
-                    src="../public/Instagram.png"
+                    src="/Instagram.png"
                     alt=""
                   />
                 </div>
                 <div className="socialdiv">
                   <img
                     className="socialpng discord"
-                    src="../public/discord.png"
+                    src="/discord.png"
                     alt=""
                   />
                 </div>
                 <div className="socialdiv">
                   <img
                     className="socialpng linkedin"
-                    src="../public/linkedin.png"
+                    src="/linkedin.png"
                     alt=""
                   />
                 </div>
                 <div className="socialdiv">
                   <img
                     className="socialpng"
-                    src="../public/reddit.png"
+                    src="/reddit.png"
                     alt=""
                   />
                 </div>
