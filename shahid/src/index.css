@@ -334,7 +334,7 @@ button {
 @media screen and (max-width: 1372px) {
   body {
     overflow: visible;
-    width: unset;
+    height: unset;
   }
 
   .content {
