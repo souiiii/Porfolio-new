@@ -14,7 +14,7 @@ export default function App() {
               <p className="job">Web Designer and Developer</p>
             </div>
           </div>
-          <a href="mailto:b423037@iiit-bh.ac.in" target="_blank" className="inquiry">
+          <a href="mailto:b423037@iiit-bh.ac.in?subject=Inquiry%20from%20Portfolio&body=Hi%20Shahid,%20I%20saw%20your%20portfolio..." target="_blank" className="inquiry">
             <span>Inquiry</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +210,7 @@ export default function App() {
           </div>
         </div>
         <div className="footer">
-          <div>@ 2025 Souii Studio</div>
+          <div>@ 2025 Shahid Siddiqui</div>
           <div>Version 1.0.1 19/06/25</div>
         </div>
       </div>

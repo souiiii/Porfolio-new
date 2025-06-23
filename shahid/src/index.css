@@ -96,7 +96,7 @@ body {
   text-decoration: none;
   height: fit-content;
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.34);
+  border: 2px solid rgba(255, 255, 255, 0.34);
   background: #141615;
   font-size: 14px;
   font-style: normal;
@@ -109,6 +109,24 @@ body {
   justify-content: center;
   align-items: center;
   color: #efdcc3;
+  transition: all 0.2s;
+}
+
+.inquiry svg{
+  transition: all 0.2s;
+}
+
+.inquiry:hover, .inquiry:active{
+  border-color: #efdcc3;
+  border-width: 2px;
+}
+
+.inquiry:hover svg, .inquiry:active svg{
+  transform: rotate(-45deg);
+}
+
+.inquiry:hover svg g path, .inquiry:active svg g path{
+  fill: #efdcc3;
 }
 
 
@@ -186,7 +204,7 @@ body {
   border: none;
   overflow: hidden;
   background-color: unset;
-  background-image: url("../public/mappp.png");
+  background-image: url("../public/mappp.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
