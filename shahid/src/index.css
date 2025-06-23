@@ -104,7 +104,6 @@ body {
   line-height: 172%; /* 20.64px */
   cursor: pointer;
   padding: 4px 0.7rem;
-  margin-top: 0.2rem;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
@@ -373,7 +372,7 @@ body {
 @media screen and (max-width: 812px){
   .parent{
     justify-content: flex-start;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
   }
 }
