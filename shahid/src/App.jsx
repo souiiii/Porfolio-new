@@ -14,7 +14,7 @@ export default function App() {
               <p className="job">Web Designer and Developer</p>
             </div>
           </div>
-          <button className="inquiry">
+          <a href="mailto:b423037@iiit-bh.ac.in" target="_blank" className="inquiry">
             <span>Inquiry</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ export default function App() {
                 </clipPath>
               </defs>
             </svg>
-          </button>
+          </a>
         </div>
         <div className="content">
           <div className="firstbox">
@@ -63,34 +63,34 @@ export default function App() {
                 </div>
               </div>
               <div className="box link">
-                <div className="socialdiv">
+                <a href="https://www.instagram.com/kya_yaar_shahid/" target='_blank' className="socialdiv">
                   <img
                     className="socialpng"
                     src="/Instagram.png"
                     alt=""
                   />
-                </div>
-                <div className="socialdiv">
+                </a>
+                <a href="https://discord.com/users/872886208068476929" target='_blank' className="socialdiv">
                   <img
                     className="socialpng discord"
                     src="/discord.png"
                     alt=""
                   />
-                </div>
-                <div className="socialdiv">
+                </a>
+                <a href="https://www.linkedin.com/in/reheshahid/" target='_blank' className="socialdiv">
                   <img
                     className="socialpng linkedin"
                     src="/linkedin.png"
                     alt=""
                   />
-                </div>
-                <div className="socialdiv">
+                </a>
+                <a href="https://www.reddit.com/u/Few-Instruction-1993/s/7giey0PJ5v" target='_blank' className="socialdiv">
                   <img
                     className="socialpng"
                     src="/reddit.png"
                     alt=""
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -98,21 +98,21 @@ export default function App() {
             <Heading>Work</Heading>
             <div className="workItems element-with-scroll">
               <div className="workItemsContainer">
-                <WorkItem title="Surplus" date="May 2025">
+                <WorkItem title="Surplus" link='https://surplus.live/' date="May 2025">
                   Surplus is your pocket-sized gym log—track workouts by date,
                   log sets with ease, and watch your progress stack up, rep by
                   rep.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
-                <WorkItem title="Omnifood" date="Aug 2024">
+                <WorkItem title="Omnifood" link='https://omnifood-for-you-anywhere.netlify.app/' date="Aug 2024">
                   Surplus is your pocket-sized gym log—track workouts by date,
                   log sets with ease, and watch your progress stack up, rep by
                   rep.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
-                <WorkItem border={false} title="Surplus" date="May 2025">
+                <WorkItem border={false} link='https://deceptioner.site/' title="Deceptioner" date="Dec 2024">
                   Surplus is your pocket-sized gym log—track workouts by date,
                   log sets with ease, and watch your progress stack up, rep by
                   rep.
