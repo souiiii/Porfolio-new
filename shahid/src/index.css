@@ -51,12 +51,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-block: 0.7rem;
 }
 
 .infoDiv {
   display: flex;
   gap: 1rem;
-  margin-bottom: 0.7rem;
 }
 
 .subInfoDiv {
@@ -104,6 +104,7 @@ body {
   line-height: 172%; /* 20.64px */
   cursor: pointer;
   padding: 4px 0.7rem;
+  margin-top: 0.2rem;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
