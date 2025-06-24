@@ -8,6 +8,8 @@
   text-decoration: none;
 }
 
+
+
 .bordernone {
   border: none;
 }
@@ -59,5 +61,5 @@
   font-style: normal;
   font-weight: 500;
   line-height: 172%;
-  padding-right: 12px;
+  /* padding-right: 12px; */
 }
