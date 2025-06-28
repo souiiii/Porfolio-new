@@ -139,9 +139,11 @@ export default function App() {
                   title="Deceptioner"
                   date="Dec 2024"
                 >
-                  Surplus is your pocket-sized gym log—track workouts by date,
-                  log sets with ease, and watch your progress stack up, rep by
-                  rep.
+                  Contributed to the development of Deceptioner, an advanced AI
+                  rewriting tool designed to bypass AI content detectors.
+                  Focused on creating a modern, intuitive frontend that delivers
+                  a seamless user experience across features like subscription
+                  management, free trials, and upgrade paths.
                 </WorkItem>
               </div>
             </div>

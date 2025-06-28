@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
-
-
 #root {
   width: 100%;
   height: 100%;
@@ -94,7 +92,7 @@ body {
   border-radius: 50%;
 }
 
-.inquiry{
+.inquiry {
   text-decoration: none;
   height: fit-content;
   border-radius: 10px;
@@ -114,23 +112,25 @@ body {
   transition: all 0.2s;
 }
 
-.inquiry svg{
+.inquiry svg {
   transition: all 0.2s;
 }
 
-.inquiry:hover, .inquiry:active{
+.inquiry:hover,
+.inquiry:active {
   border-color: #efdcc3;
   border-width: 2px;
 }
 
-.inquiry:hover svg, .inquiry:active svg{
+.inquiry:hover svg,
+.inquiry:active svg {
   transform: rotate(-45deg);
 }
 
-.inquiry:hover svg g path, .inquiry:active svg g path{
+.inquiry:hover svg g path,
+.inquiry:active svg g path {
   fill: #efdcc3;
 }
-
 
 .content {
   width: 100%;
@@ -230,8 +230,8 @@ body {
   height: 100%;
   object-fit: cover;
   } */
-  
-  .link {
+
+.link {
   /* max-height: 50%-1rem; */
   flex: 1 1 150px;
   min-width: 150px;
@@ -283,6 +283,7 @@ body {
   height: 100%;
   position: relative;
   padding-top: 25px;
+  padding-bottom: 25px;
   mask-image: linear-gradient(
     to bottom,
     transparent 0%,
@@ -348,11 +349,10 @@ body {
   display: none;
 }
 
-.workItems::-webkit-scrollbar-thumb { 
+.workItems::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   display: none;
-
 }
 
 .workItems::-webkit-scrollbar-track {
@@ -375,11 +375,10 @@ body {
   }
 }
 
-
-@media screen and (max-width: 812px){
-  .parent{
+@media screen and (max-width: 812px) {
+  .parent {
     justify-content: flex-start;
-    padding-top: 1.5rem;    
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
   }
 }
