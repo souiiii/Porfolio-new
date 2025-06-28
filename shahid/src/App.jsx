@@ -115,9 +115,10 @@ export default function App() {
                   link="https://surplus.live/"
                   date="May 2025"
                 >
-                  Surplus is your pocket-sized gym log—track workouts by date,
-                  log sets with ease, and watch your progress stack up, rep by
-                  rep.
+                  Built Surplus, a cross-platform gym log app that helps users
+                  track workouts by date, log sets effortlessly, and monitor
+                  progress over time. Delivered a responsive, user-friendly
+                  interface optimized for both web and Android platforms.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
