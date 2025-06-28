@@ -126,9 +126,10 @@ export default function App() {
                   link="https://omnifood-for-you-anywhere.netlify.app/"
                   date="Aug 2024"
                 >
-                  Omnifood is a daily subscription based food delivery startup.
-                  I designed and developed the company's website giving it a
-                  modern look, so that it stands out in market.
+                  Developed and designed a modern, visually engaging website for
+                  Omnifood, a daily subscription-based food delivery startup.
+                  The site was designed to enhance brand presence and
+                  distinguish the company in a competitive market.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
