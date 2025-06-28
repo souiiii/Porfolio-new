@@ -14,7 +14,11 @@ export default function App() {
               <p className="job">Web Designer and Developer</p>
             </div>
           </div>
-          <a href="mailto:b423037@iiit-bh.ac.in?subject=Inquiry%20from%20Portfolio&body=Hi%20Shahid,%20I%20saw%20your%20portfolio..." target="_blank" className="inquiry">
+          <a
+            href="mailto:b423037@iiit-bh.ac.in?subject=Inquiry%20from%20Portfolio&body=Hi%20Shahid,%20I%20saw%20your%20portfolio..."
+            target="_blank"
+            className="inquiry"
+          >
             <span>Inquiry</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,33 +67,41 @@ export default function App() {
                 </div>
               </div>
               <div className="box link">
-                <a href="https://www.instagram.com/kya_yaar_shahid/" target='_blank' className="socialdiv">
-                  <img
-                    className="socialpng"
-                    src="/Instagram.png"
-                    alt=""
-                  />
+                <a
+                  href="https://www.instagram.com/kya_yaar_shahid/"
+                  target="_blank"
+                  className="socialdiv"
+                >
+                  <img className="socialpng" src="/Instagram.png" alt="" />
                 </a>
-                <a href="https://discord.com/users/872886208068476929" target='_blank' className="socialdiv">
+                <a
+                  href="https://discord.com/users/872886208068476929"
+                  target="_blank"
+                  className="socialdiv"
+                >
                   <img
                     className="socialpng discord"
                     src="/discord.png"
                     alt=""
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/reheshahid/" target='_blank' className="socialdiv">
+                <a
+                  href="https://www.linkedin.com/in/reheshahid/"
+                  target="_blank"
+                  className="socialdiv"
+                >
                   <img
                     className="socialpng linkedin"
                     src="/linkedin.png"
                     alt=""
                   />
                 </a>
-                <a href="https://www.reddit.com/u/Few-Instruction-1993/s/7giey0PJ5v" target='_blank' className="socialdiv">
-                  <img
-                    className="socialpng"
-                    src="/reddit.png"
-                    alt=""
-                  />
+                <a
+                  href="https://www.reddit.com/u/Few-Instruction-1993/s/7giey0PJ5v"
+                  target="_blank"
+                  className="socialdiv"
+                >
+                  <img className="socialpng" src="/reddit.png" alt="" />
                 </a>
               </div>
             </div>
@@ -98,21 +110,34 @@ export default function App() {
             <Heading>Work</Heading>
             <div className="workItems element-with-scroll">
               <div className="workItemsContainer">
-                <WorkItem title="Surplus" link='https://surplus.live/' date="May 2025">
+                <WorkItem
+                  title="Surplus"
+                  link="https://surplus.live/"
+                  date="May 2025"
+                >
                   Surplus is your pocket-sized gym log—track workouts by date,
                   log sets with ease, and watch your progress stack up, rep by
                   rep.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
-                <WorkItem title="Omnifood" link='https://omnifood-for-you-anywhere.netlify.app/' date="Aug 2024">
-                  Surplus is your pocket-sized gym log—track workouts by date,
-                  log sets with ease, and watch your progress stack up, rep by
-                  rep.
+                <WorkItem
+                  title="Omnifood"
+                  link="https://omnifood-for-you-anywhere.netlify.app/"
+                  date="Aug 2024"
+                >
+                  Omnifood is a daily subscription based food delivery startup.
+                  I designed and developed the company's website giving it a
+                  modern look, so that it stands out in market.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
-                <WorkItem border={false} link='https://deceptioner.site/' title="Deceptioner" date="Dec 2024">
+                <WorkItem
+                  border={false}
+                  link="https://deceptioner.site/"
+                  title="Deceptioner"
+                  date="Dec 2024"
+                >
                   Surplus is your pocket-sized gym log—track workouts by date,
                   log sets with ease, and watch your progress stack up, rep by
                   rep.
