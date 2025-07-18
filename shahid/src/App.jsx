@@ -111,6 +111,18 @@ export default function App() {
             <div className="workItems element-with-scroll">
               <div className="workItemsContainer">
                 <WorkItem
+                  title="Unique Hosting"
+                  link="https://www.uniquehosting.space/"
+                  date="July 2025"
+                >
+                  Developed a responsive, SEO-optimized website for Unique
+                  Hosting, a platform offering free Minecraft server hosting.
+                  Integrated a dedicated Website Builder page to provide custom
+                  site creation services for clients.
+                </WorkItem>
+              </div>
+              <div className="workItemsContainer">
+                <WorkItem
                   title="Surplus"
                   link="https://surplus.live/"
                   date="May 2025"
@@ -240,7 +252,7 @@ export default function App() {
         </div>
         <div className="footer">
           <div>@ 2025 Shahid Siddiqui</div>
-          <div>Version 1.0.1 19/06/25</div>
+          <div>Version 1.1.2 19/07/25</div>
         </div>
       </div>
     </div>
