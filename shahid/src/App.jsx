@@ -1,6 +1,8 @@
 import Heading from "./Heading";
 import SkillItem from "./SkillItem";
 import WorkItem from "./WorkItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function App() {
   return (
@@ -233,6 +235,22 @@ export default function App() {
               </div>
               <div className="skillItemsContainer">
                 <SkillItem
+                  title="App Development"
+                  svg={
+                    <FontAwesomeIcon
+                      icon={faMobileAlt}
+                      size="3x"
+                      style={{ color: "#efdcc3" }}
+                    />
+                  }
+                >
+                  I develop mobile apps using React Native (Expo) that run
+                  consistently across iOS and Android with responsive interfaces
+                  for production-ready builds.
+                </SkillItem>
+              </div>
+              <div className="skillItemsContainer">
+                <SkillItem
                   title="Audio Design"
                   svg={
                     <svg
@@ -281,7 +299,7 @@ export default function App() {
         </div>
         <div className="footer">
           <div>@ 2025 Shahid Siddiqui</div>
-          <div>Version 1.1.2 19/07/25</div>
+          <div>Version 1.2.2 23/07/25</div>
         </div>
       </div>
     </div>
