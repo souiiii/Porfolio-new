@@ -54,6 +54,13 @@ body {
   padding-block: 0.7rem;
 }
 
+.twoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .infoDiv {
   display: flex;
   gap: 1rem;
@@ -391,5 +398,9 @@ body {
     justify-content: flex-start;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
+  }
+
+  .inq {
+    display: none;
   }
 }
