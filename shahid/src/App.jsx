@@ -143,7 +143,7 @@ export default function App() {
               <div className="workItemsContainer">
                 <WorkItem
                   title="Eventually"
-                  link="www.http://eventually-env.eba-5k3i7unv.eu-north-1.elasticbeanstalk.com/"
+                  link="http://eventually-env.eba-5k3i7unv.eu-north-1.elasticbeanstalk.com/"
                   date="Jan 2026"
                 >
                   Eventually is a full-stack event management application
