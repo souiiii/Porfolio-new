@@ -17,7 +17,12 @@ export default function App() {
             </div>
           </div>
           <div className="twoDiv">
-            <a href="/resume-shahid.pdf" target="_blank" className="inquiry">
+            <a
+              href="/intern-resume-shahid
+            .pdf"
+              target="_blank"
+              className="inquiry"
+            >
               <span>Resume</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
