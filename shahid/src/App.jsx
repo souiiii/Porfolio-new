@@ -142,6 +142,17 @@ export default function App() {
             <div className="workItems element-with-scroll">
               <div className="workItemsContainer">
                 <WorkItem
+                  title="Eventually"
+                  link="https://www.http://eventually-env.eba-5k3i7unv.eu-north-1.elasticbeanstalk.com/"
+                  date="Jan 2026"
+                >
+                  Eventually is a full-stack event management application
+                  featuring event creation, user registration, attendance
+                  tracking, and reliable timezone-aware scheduling.
+                </WorkItem>
+              </div>
+              <div className="workItemsContainer">
+                <WorkItem
                   title="Unique Hosting"
                   link="https://www.uniquehosting.space/"
                   date="July 2025"
@@ -178,11 +189,9 @@ export default function App() {
                   title="Deceptioner"
                   date="Dec 2024"
                 >
-                  Contributed to the development of Deceptioner, an advanced AI
-                  rewriting tool designed to bypass AI content detectors.
-                  Focused on creating a modern, intuitive frontend that delivers
-                  a seamless user experience across features like subscription
-                  management, free trials, and upgrade paths.
+                  Contributed to the frontend development of Deceptioner, an
+                  advanced AI rewriting tool designed to bypass AI content
+                  detectors.
                 </WorkItem>
               </div>
             </div>
@@ -294,7 +303,7 @@ export default function App() {
         </div>
         <div className="footer">
           <div>@ 2025 Shahid Siddiqui</div>
-          <div>Version 1.2.2 23/07/25</div>
+          <div>Version 1.3.0 23/01/26</div>
         </div>
       </div>
     </div>
