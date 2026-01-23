@@ -18,8 +18,7 @@ export default function App() {
           </div>
           <div className="twoDiv">
             <a
-              href="/intern-resume-shahid
-            .pdf"
+              href="/intern-resume-shahid.pdf"
               target="_blank"
               className="inquiry"
             >
