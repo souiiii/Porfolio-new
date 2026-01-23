@@ -148,8 +148,6 @@ export default function App() {
                 >
                   Developed a responsive, SEO-optimized website for Unique
                   Hosting, a platform offering free Minecraft server hosting.
-                  Integrated a dedicated Website Builder page to provide custom
-                  site creation services for clients.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
@@ -160,8 +158,7 @@ export default function App() {
                 >
                   Built Surplus, a cross-platform gym log app that helps users
                   track workouts by date, log sets effortlessly, and monitor
-                  progress over time. Delivered a responsive, user-friendly
-                  interface optimized for both web and Android platforms.
+                  progress over time.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
@@ -172,8 +169,6 @@ export default function App() {
                 >
                   Developed and designed a modern, visually engaging website for
                   Omnifood, a daily subscription-based food delivery startup.
-                  The site was designed to enhance brand presence and
-                  distinguish the company in a competitive market.
                 </WorkItem>
               </div>
               <div className="workItemsContainer">
