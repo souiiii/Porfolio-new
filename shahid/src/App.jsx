@@ -318,7 +318,7 @@ export default function App() {
         </div>
         <div className="footer">
           <div>@ 2026 Shahid Siddiqui</div>
-          <div>Version 1.4.0 18/02/26</div>
+          <div>Version 1.4.1 18/02/26</div>
         </div>
       </div>
     </div>
