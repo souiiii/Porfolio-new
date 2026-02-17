@@ -146,6 +146,17 @@ export default function App() {
             <div className="workItems element-with-scroll">
               <div className="workItemsContainer">
                 <WorkItem
+                  title="Velvet"
+                  link="https://velvet-my28.onrender.com/"
+                  date="Feb 2026"
+                >
+                  Velvet is a secure file-sharing platform built for simplicity
+                  and control. Create protected links with expiry, download
+                  limits, and password rules.
+                </WorkItem>
+              </div>
+              <div className="workItemsContainer">
+                <WorkItem
                   title="Eventually"
                   link="http://eventually-env.eba-5k3i7unv.eu-north-1.elasticbeanstalk.com/"
                   date="Jan 2026"
@@ -306,8 +317,8 @@ export default function App() {
           </div>
         </div>
         <div className="footer">
-          <div>@ 2025 Shahid Siddiqui</div>
-          <div>Version 1.3.0 23/01/26</div>
+          <div>@ 2026 Shahid Siddiqui</div>
+          <div>Version 1.4.0 18/02/26</div>
         </div>
       </div>
     </div>
