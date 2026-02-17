@@ -49,6 +49,7 @@ export default function App() {
               </svg>
             </a>
             <a
+              rel="noreferrer"
               href="mailto:b423037@iiit-bh.ac.in?subject=Inquiry%20from%20Portfolio&body=Hi%20Shahid,%20I%20saw%20your%20portfolio..."
               target="_blank"
               className="inquiry inq"
@@ -103,6 +104,7 @@ export default function App() {
               </div>
               <div className="box link">
                 <a
+                  rel="noreferrer"
                   href="https://www.instagram.com/kya_yaar_shahid/"
                   target="_blank"
                   className="socialdiv"
@@ -110,6 +112,7 @@ export default function App() {
                   <img className="socialpng" src="/Instagram.png" alt="" />
                 </a>
                 <a
+                  rel="noreferrer"
                   href="https://discord.com/users/872886208068476929"
                   target="_blank"
                   className="socialdiv"
@@ -121,6 +124,7 @@ export default function App() {
                   />
                 </a>
                 <a
+                  rel="noreferrer"
                   href="https://www.linkedin.com/in/reheshahid/"
                   target="_blank"
                   className="socialdiv"
@@ -132,6 +136,7 @@ export default function App() {
                   />
                 </a>
                 <a
+                  rel="noreferrer"
                   href="https://www.reddit.com/u/Few-Instruction-1993/s/7giey0PJ5v"
                   target="_blank"
                   className="socialdiv"
